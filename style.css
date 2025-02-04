@@ -18,17 +18,39 @@ footer {
   text-align: right;
   color: midnightblue;
 }
-.creative{
-  color:midnightblue;
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
 }
-@media (max-width:680px){
-  .logo{
-    width:100px;
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
   }
-  h1{
-    font-size:3.5rem;
-    text-align:center;
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
   }
+
   .card {
     width: 100%;
     display: block;
@@ -42,19 +64,4 @@ footer {
     display: inline;
     object-fit: cover;
   }
-}
-
-.left{
-  float:left;
-}
-.right{
-  float:right;
-}
-.card{
-  width:45%
-}
-.tile-image {
-  height: 200px;
-  float: left;
-  margin-right: 50px;
 }
